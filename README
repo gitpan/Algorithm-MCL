@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Algorithm-MCL,
+version 0.001:
+
+  perl module implementing Markov Cluster Algorithm using PDL 
+
+This software is copyright (c) 2012 by Pinkhas Nisanov.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
