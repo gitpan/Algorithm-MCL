@@ -1,5 +1,5 @@
 ---
-abstract: 'perl module implementing Markov Cluster Algorithm using PDL '
+abstract: 'perl module implementing Markov Cluster Algorithm using PDL'
 author:
   - 'Pinkhas Nisanov <pinkhas@nisanov.com>'
 build_requires: {}
@@ -15,4 +15,4 @@ name: Algorithm-MCL
 requires:
   Mouse: 0.92
   PDL: 2.4.10
-version: 0.001
+version: 0.002

@@ -7,3 +7,4 @@ dist.ini
 lib/Algorithm/MCL.pm
 lib/Algorithm/MCL.pm~
 t/Algorithm-MCL.t
+t/release-pod-syntax.t

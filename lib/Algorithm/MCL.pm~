@@ -26,7 +26,7 @@ my $clusters1 = $mcl1->run();
 
 # get clusters
 foreach my $cluster ( @$clusters1 ) {
-   say "Cluster size: ". scalar @$cluster;
+   print "Cluster size: ". scalar @$cluster. "\n";
 }
 
 
@@ -49,9 +49,9 @@ my $clusters2 = $mcl2->run();
 
 # get clusters
 foreach my $cluster ( @$clusters2 ) {
-    say "Found Cluster";
+    print "Found Cluster\n";
     foreach my $vertex ( @$cluster ) {
-        say "  Cluster element: ". $$vertex;
+        print "  Cluster element: ". $$vertex. "\n";
     }
 }
 

@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "perl module implementing Markov Cluster Algorithm using PDL ",
+  "ABSTRACT" => "perl module implementing Markov Cluster Algorithm using PDL",
   "AUTHOR" => "Pinkhas Nisanov <pinkhas\@nisanov.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Mouse" => "0.92",
     "PDL" => "2.4.10"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
