@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Mouse" => "0.92",
     "PDL" => "2.4.10"
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
