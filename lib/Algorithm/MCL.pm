@@ -179,7 +179,7 @@ Algorithm::MCL - perl module implementing Markov Cluster Algorithm using PDL
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -261,7 +261,7 @@ create new Algorithm::MCL object that accumulate graph edges and process data.
 
 =head2 addEdge($ref1, $ref2, $distance)
 
-add new edge to graph. first two parameters are reference to vertex objects. third parameter is "distance measurement" between vetices. "distance measurement" should be number between 0 and 1. if "distance measurement" is not defined it set to 1.
+add new edge to graph. first two parameters are reference to vertex objects. third parameter is "connection strength measurement" between vetices. "connection strength measurement" should be number between 0 and 1, higher number means stronger connectivity. if "connection strength measurement" is not defined it set to 1.
 
 =head2 run()
 

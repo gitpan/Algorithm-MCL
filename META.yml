@@ -15,4 +15,4 @@ name: Algorithm-MCL
 requires:
   Mouse: 0.92
   PDL: 2.4.10
-version: 0.003
+version: 0.004
